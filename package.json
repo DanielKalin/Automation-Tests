@@ -6,7 +6,8 @@
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
-    "test:login": "playwright test deviantart-login.spec.js",
+    "test:login": "playwright test tests/SISU-tests/deviantart-login.spec.js",
+    "test:login:headed": "playwright test tests/SISU-tests/deviantart-login.spec.js --headed",
     "test:components": "playwright test tests/page-verification/",
     "test:components:headed": "playwright test tests/page-verification/ --headed"
   },
