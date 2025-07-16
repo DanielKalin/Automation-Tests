@@ -1,0 +1,16 @@
+{
+  "name": "deviantart-login-test",
+  "version": "1.0.0",
+  "description": "Automated login test for DeviantArt",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "keywords": ["playwright", "test", "deviantart", "login"],
+  "author": "",
+  "license": "MIT"
+} 

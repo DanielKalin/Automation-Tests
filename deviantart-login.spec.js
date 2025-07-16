@@ -23,4 +23,4 @@ test('DeviantArt login', async ({ page }) => {
   // Assert that the user menu is visible (indicating login success)
   const userMenu = await page.isVisible('a[data-hook="user_menu"]');
   expect(userMenu).toBe(true);
-});
+}); 
