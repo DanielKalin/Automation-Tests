@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test:headed": "playwright test --headed"
+    "test:headed": "playwright test --headed",
+    "test:login": "playwright test deviantart-login.spec.js",
+    "test:components": "playwright test tests/page-verification/",
+    "test:components:headed": "playwright test tests/page-verification/ --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
