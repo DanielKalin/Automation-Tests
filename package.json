@@ -8,9 +8,15 @@
     "test:headed": "playwright test --headed"
   },
   "devDependencies": {
-    "@playwright/test": "^1.40.0"
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^17.2.0"
   },
-  "keywords": ["playwright", "test", "deviantart", "login"],
+  "keywords": [
+    "playwright",
+    "test",
+    "deviantart",
+    "login"
+  ],
   "author": "",
   "license": "MIT"
-} 
+}

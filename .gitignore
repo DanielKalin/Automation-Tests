@@ -1,0 +1,19 @@
+# Environment variables (contains sensitive credentials)
+.env
+
+# Node modules
+node_modules/
+
+# Test results and screenshots
+test-results/
+*.png
+
+# Playwright browsers
+.playwright/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db 
